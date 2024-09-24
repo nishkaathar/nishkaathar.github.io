@@ -1,17 +1,79 @@
 <!DOCTYPE html>
 <html> 
+<style>
+header{
+  box-sizing: border-box;
+}
+body {  
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #7f5539;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
   <head>
     <title>Shopping Guide</title> 
   </head>
    <body>
-    <h1> What to Wear this Fall? </h1>
-    <h5> welcome to a guide on every comfy outfit you can wear this fall.</h5>
+    <header> What to Wear this Fall? </header>
+    <h4><em>welcome to a guide on every comfy outfit you can wear this fall.</em></h4>
      <div id= "introduction" >
-       <h3> The purpose and Goal: </h3>
+       <h3> WHAT?: </h3>
        <p1> As fall approaches, it's time to put your summer wardrobe into rotation. It's the season for UGGs, Sweaters, 
          and Knitted items. Don't know what to wear this fall? Look no further, this website has all the inspiration 
          and links to trendy items!</p1>
-     </div
+   
      
     
   </body>
