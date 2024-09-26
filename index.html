@@ -41,33 +41,27 @@ article {
   float: left;
   padding: 20px;
   width: 70%;
-  background-color: #e6ccb2;
+  background: #e6ccb2;
   height: 300px; /* only for demonstration, should be removed */
 }
 
+
 /* Clear floats after the columns */
 section::after {
-  content: " the start of inspo";
+  content: "";
   display: table;
   clear: both;
 }
-	
-article2 {
- float: left;
- padding: 20px;
- text-align: center;
- width: 30%
- background-color: #ede0d4;
- height: 400px;
-}
 
-/* Style the footer */
-footer {
-  background-color: #7f5539;
-  padding: 10px;
+article2 {
+  float: left;
+  padding: 20px;
   text-align: center;
-  color: white;
-}
+  width: 30%
+  background:#7f5539;
+  height: 400px;
+ }
+	
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
@@ -99,21 +93,16 @@ footer {
     <li><em> -shoes </em></li>
   </ul>
 </nav>
+
+</section>
 <article2>
   <h1 style="font-family:Times New Roman;">Fall Sweaters</h1>
   <p style="font-family: Times New Roman;"><em>Some trendy and cute fall sweaters</em></p>
    <a href="https://us.brandymelville.com/" target="_blank">
 		<img src="https://us.brandymelville.com/cdn/shop/products/0-	40_f281e0d5-e2cb-4f0a-b418-4b23f10b7ff0_750x.jpg?v=1697015352" alt="Brandy sweater" style="width:200px;height:300px;">
 	</a>
-  <p1>brandy melville</p1>
 </article2>
-</section>
-
-      
-
- <footer>
-  <p>FALL INSPO ENDS HERE</p>
-</footer>
+     
 
 </body>
 </html>    
